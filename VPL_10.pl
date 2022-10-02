@@ -20,5 +20,3 @@ podar([Cabeza|Cola], Ncant, LRes):-ocurrencias(Cabeza, [Cabeza|Cola], No), Indic
 podado(Lista, Resp):-
     cantidad(Lista, Ncant),
     podar(Lista, Ncant, Resp).
-
--?podar([ok,tv, radio, tv, play, tv, tv, radio],8,Resp).
